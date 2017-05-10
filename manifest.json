@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "save and return",
+  "description": "This extension return the status which i save only for me",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://115.159.213.177:30002"
+  ]
+}
